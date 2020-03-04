@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MalihuScrollbarService } from 'ngx-malihu-scrollbar';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'custom-scrollbar';
+  public scrollbarOptions = { axis: 'y', theme: 'rounded-dark' };
+  constructor(
+    
+  ) { }
+   
+  ngAfterViewInit() {
+   
+  }
+   
+  ngOnDestroy() {
+    
+  }
 }
